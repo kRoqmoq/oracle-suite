@@ -31,5 +31,4 @@ node_modules
 # Go Workspaces
 go.work
 
-config.json
 test.go

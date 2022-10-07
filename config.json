@@ -78,7 +78,9 @@
       "YFIUSD",
       "ZECUSD",
       "ZRXUSD",
-      "MATICUSD"
+      "MATICUSD",
+      "USDJPY",
+      "ETHJPY"
     ]
   },
   "spectre": {
@@ -209,7 +211,9 @@
       "ZRXUSD",
       "STETHUSD",
       "WSTETHUSD",
-      "MATICUSD"
+      "MATICUSD",
+      "USDJPY",
+      "ETHJPY"
     ]
   },
   "gofer": {
@@ -222,42 +226,35 @@
         "type": "fx",
         "name": "fx",
         "params": {
-          "apiKey": "u1Za62g8gi1TILNAsIQ1H4AKR5Ah7iya"
+          "apiKey": "${CFG_FX_KEY-}"
         }
       },
       "fixer": {
         "type": "fixerx",
         "name": "fixerx",
         "params": {
-          "apiKey": "u1Za62g8gi1TILNAsIQ1H4AKR5Ah7iya"
-        }
-      },
-      "openexchangerates": {
-        "type": "openexchangerates",
-        "name": "openexchangerates",
-        "params": {
-          "apiKey": "u1Za62g8gi1TILNAsIQ1H4AKR5Ah7iya"
+          "apiKey": "${CFG_FIXER_KEY-}"
         }
       },
       "currencyapi": {
         "type": "currencyapi",
         "name": "currencyapi",
         "params": {
-          "apiKey": "u1Za62g8gi1TILNAsIQ1H4AKR5Ah7iya"
+          "apiKey": "${CFG_CURRENCYAPI_KEY-}"
         }
       },
       "currencylayer": {
         "type": "currencylayer",
         "name": "currencylayer",
         "params": {
-          "apiKey": "u1Za62g8gi1TILNAsIQ1H4AKR5Ah7iya"
+          "apiKey": "${CFG_CURRENCYLAYER_KEY-}"
         }
       },
       "forex": {
         "type": "forex",
         "name": "forex",
         "params": {
-          "apiKey": "u1Za62g8gi1TILNAsIQ1H4AKR5Ah7iya"
+          "apiKey": "${CFG_FOREX_KEY-}"
         }
       },
       "binance_us": {
@@ -416,7 +413,7 @@
         "params": {
           "minimumSuccessfulSources": 3,
           "postPriceHook": {
-              "circuitContract": "0xa3105dee5ec73a7003482b1a8968dc88666f3589"
+            "circuitContract": "0xa3105dee5ec73a7003482b1a8968dc88666f3589"
           }
         }
       },
@@ -877,8 +874,7 @@
       "ETH/JPY": {
         "method": "median",
         "sources": [
-          [{ "origin": "bitfinex", "pair": "ETH/JPY" }],
-          [{ "origin": "binance", "pair": "ETH/BTC" },{ "origin": "fixer", "pair": "USD/JPY" }]
+          [{ "origin": "bitfinex", "pair": "ETH/JPY" }]
         ],
         "params": {
           "minimumSuccessfulSources": 1
