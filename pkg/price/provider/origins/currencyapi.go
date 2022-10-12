@@ -34,6 +34,7 @@ type currencyapiResponse struct {
 // Currencyapi exchange handler
 type Currencyapi struct {
 	WorkerPool query.WorkerPool
+	BaseURL    string
 	APIKey     string
 }
 

@@ -34,6 +34,7 @@ type xeResponse struct {
 // Xe exchange handler
 type Xe struct {
 	WorkerPool query.WorkerPool
+	BaseURL    string
 	APIKey     string
 }
 

@@ -34,6 +34,7 @@ type fixerResponse struct {
 // Fixer exchange handler
 type Fixer struct {
 	WorkerPool query.WorkerPool
+	BaseURL    string
 	APIKey     string
 }
 

@@ -110,17 +110,17 @@ func NewHandler(
 			aliases,
 		), nil
 	case "currencyapi":
-		return origins.NewBaseExchangeHandler(origins.CryptoCompare{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
+		return origins.NewBaseExchangeHandler(origins.Currencyapi{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "currencylayer":
-		return origins.NewBaseExchangeHandler(origins.CryptoCompare{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
+		return origins.NewBaseExchangeHandler(origins.Currencylayer{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "ddex":
 		return origins.NewBaseExchangeHandler(origins.Ddex{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "folgory":
 		return origins.NewBaseExchangeHandler(origins.Folgory{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "fixer":
-		return origins.NewBaseExchangeHandler(origins.Ftx{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
+		return origins.NewBaseExchangeHandler(origins.Fixer{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "forex":
-		return origins.NewBaseExchangeHandler(origins.Ftx{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
+		return origins.NewBaseExchangeHandler(origins.Forex{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "ftx":
 		return origins.NewBaseExchangeHandler(origins.Ftx{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "fx":
@@ -234,7 +234,7 @@ func NewHandler(
 	case "upbit":
 		return origins.NewBaseExchangeHandler(origins.Upbit{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	case "xe":
-		return origins.NewBaseExchangeHandler(origins.Ftx{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
+		return origins.NewBaseExchangeHandler(origins.Xe{WorkerPool: wp, BaseURL: baseURL}, aliases), nil
 	}
 
 	return nil, origins.ErrUnknownOrigin

@@ -34,6 +34,7 @@ type currencylayerResponse struct {
 // Currencylayer exchange handler
 type Currencylayer struct {
 	WorkerPool query.WorkerPool
+	BaseURL    string
 	APIKey     string
 }
 

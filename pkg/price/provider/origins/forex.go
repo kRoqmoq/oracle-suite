@@ -35,6 +35,7 @@ type forexResponse struct {
 // Forex exchange handler
 type Forex struct {
 	WorkerPool query.WorkerPool
+	BaseURL    string
 	APIKey     string
 }
 
