@@ -18,8 +18,8 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	suite "github.com/chronicleprotocol/oracle-suite"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/logrus/flag"
+	suite "github.com/kRoqmoq/oracle-suite"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/logrus/flag"
 )
 
 type options struct {

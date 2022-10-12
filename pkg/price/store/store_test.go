@@ -24,15 +24,15 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/store/testutil"
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/errutil"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/store/testutil"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/errutil"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/local"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/local"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
 )
 
 func TestStore(t *testing.T) {

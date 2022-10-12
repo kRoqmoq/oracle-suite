@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/chronicleprotocol/oracle-suite/cmd/keeman/txt"
+	"github.com/kRoqmoq/oracle-suite/cmd/keeman/txt"
 )
 
 type Options struct {

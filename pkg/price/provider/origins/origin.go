@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
 )
 
 // Handler is interface that all Origin API handlers should implement.

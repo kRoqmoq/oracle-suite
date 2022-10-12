@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
 )
 
 const originTestTTL = 10 * time.Second

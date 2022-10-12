@@ -16,13 +16,13 @@ Leeloo is one of the components of Maker Teleport: https://forum.makerdao.com/t/
 ## Installation
 
 To install it, you'll first need Go installed on your machine. Then you can use standard Go
-command: `go get -u github.com/chronicleprotocol/oracle-suite/cmd/leeloo`.
+command: `go get -u github.com/kRoqmoq/oracle-suite/cmd/leeloo`.
 
 Alternatively, you can build Gofer using `Makefile` directly from the repository. This approach is recommended if you
 wish to work on Gofer source.
 
 ```bash
-git clone https://github.com/chronicleprotocol/oracle-suite.git
+git clone https://github.com/kRoqmoq/oracle-suite.git
 cd oracle-suite
 make
 ```
@@ -217,7 +217,7 @@ Currently, only the `teleport` event type is supported:
   for `TeleportGUID` events on specified contract addresses.  
   Reference:  
   [https://github.com/makerdao/dss-teleport/blob/master/src/TeleportGUID.sol](https://github.com/makerdao/dss-teleport/blob/master/src/TeleportGUID.sol)  
-  [https://github.com/chronicleprotocol/oracle-suite/blob/4eed6bcfc59b7eefba171dcc0ae3f4b7188ebb4e/pkg/event/publisher/ethereum/teleport.go#L156](https://github.com/chronicleprotocol/oracle-suite/blob/4eed6bcfc59b7eefba171dcc0ae3f4b7188ebb4e/pkg/event/publisher/ethereum/teleport.go#L156)
+  [https://github.com/kRoqmoq/oracle-suite/blob/4eed6bcfc59b7eefba171dcc0ae3f4b7188ebb4e/pkg/event/publisher/ethereum/teleport.go#L156](https://github.com/kRoqmoq/oracle-suite/blob/4eed6bcfc59b7eefba171dcc0ae3f4b7188ebb4e/pkg/event/publisher/ethereum/teleport.go#L156)
 
 ## Commands
 

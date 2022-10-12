@@ -19,8 +19,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
 )
 
 type MemoryStorage struct {

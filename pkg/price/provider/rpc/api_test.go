@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/mocks"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
 )
 
 var (

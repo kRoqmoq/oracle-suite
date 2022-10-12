@@ -18,7 +18,7 @@ package mocks
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
 )
 
 type Signer struct {

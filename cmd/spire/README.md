@@ -14,13 +14,13 @@ of [libp2p](https://libp2p.io/).
 ## Installation
 
 To install it, you'll first need Go installed on your machine. Then you can use standard Go
-command: `go get -u github.com/chronicleprotocol/oracle-suite/cmd/spire`.
+command: `go get -u github.com/kRoqmoq/oracle-suite/cmd/spire`.
 
 Alternatively, you can build Gofer using `Makefile` directly from the repository. This approach is recommended if you
 wish to work on Gofer source.
 
 ```bash
-git clone https://github.com/chronicleprotocol/oracle-suite.git
+git clone https://github.com/kRoqmoq/oracle-suite.git
 cd oracle-suite
 make
 ```

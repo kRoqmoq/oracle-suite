@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/marshal/testutil"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/marshal/testutil"
 )
 
 func TestJSON_Nodes(t *testing.T) {

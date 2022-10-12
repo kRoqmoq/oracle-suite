@@ -24,9 +24,9 @@ import (
 	ssbServer "go.cryptoscope.co/ssb"
 	"go.cryptoscope.co/ssb/invite"
 
-	suite "github.com/chronicleprotocol/oracle-suite"
-	ssbConf "github.com/chronicleprotocol/oracle-suite/pkg/config/ssb"
-	"github.com/chronicleprotocol/oracle-suite/pkg/ssb"
+	suite "github.com/kRoqmoq/oracle-suite"
+	ssbConf "github.com/kRoqmoq/oracle-suite/pkg/config/ssb"
+	"github.com/kRoqmoq/oracle-suite/pkg/ssb"
 )
 
 type Options struct {

@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/event/store"
+	"github.com/kRoqmoq/oracle-suite/pkg/event/store"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/event/api"
-	"github.com/chronicleprotocol/oracle-suite/pkg/event/store/redis"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/event/api"
+	"github.com/kRoqmoq/oracle-suite/pkg/event/store/redis"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport"
 )
 
 const week = 3600 * 24 * 7

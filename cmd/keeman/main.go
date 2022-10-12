@@ -18,7 +18,7 @@ package main
 import (
 	"os"
 
-	"github.com/chronicleprotocol/oracle-suite/cmd/keeman/cobra"
+	"github.com/kRoqmoq/oracle-suite/cmd/keeman/cobra"
 )
 
 func main() {

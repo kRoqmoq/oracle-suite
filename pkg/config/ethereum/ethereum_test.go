@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/geth"
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/geth/mocks"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/geth"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/geth/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
 )
 
 func TestEthereum_ConfigureSigner_WithoutPassword(t *testing.T) {

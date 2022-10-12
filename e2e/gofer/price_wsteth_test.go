@@ -3,8 +3,8 @@ package gofere2e
 import (
 	"testing"
 
-	"github.com/chronicleprotocol/infestor"
-	"github.com/chronicleprotocol/infestor/origin"
+	"github.com/kRoqmoq/infestor"
+	"github.com/kRoqmoq/infestor/origin"
 
 	"github.com/stretchr/testify/suite"
 )

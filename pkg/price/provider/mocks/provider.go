@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
 )
 
 type Provider struct {

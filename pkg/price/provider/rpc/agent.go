@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
 )
 
 const AgentLoggerTag = "PRICE_PROVIDER_AGENT"

@@ -19,9 +19,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
 )
 
 var (

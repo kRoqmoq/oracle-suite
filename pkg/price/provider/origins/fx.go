@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
 )
 
 // Fx URL

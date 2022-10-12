@@ -24,12 +24,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/spf13/cobra"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/config"
-	ethereumConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/ethereum"
-	loggerConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/logger"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/logrus/flag"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle/geth"
-	"github.com/chronicleprotocol/oracle-suite/pkg/supervisor"
+	"github.com/kRoqmoq/oracle-suite/pkg/config"
+	ethereumConfig "github.com/kRoqmoq/oracle-suite/pkg/config/ethereum"
+	loggerConfig "github.com/kRoqmoq/oracle-suite/pkg/config/logger"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/logrus/flag"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle/geth"
+	"github.com/kRoqmoq/oracle-suite/pkg/supervisor"
 )
 
 type options struct {

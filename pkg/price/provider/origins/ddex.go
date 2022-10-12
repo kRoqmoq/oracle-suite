@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
 )
 
 type Ddex struct {

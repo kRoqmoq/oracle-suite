@@ -24,7 +24,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
 )
 
 //go:embed wsteth_abi.json

@@ -29,11 +29,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/dump"
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/interpolate"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/dump"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/interpolate"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
 )
 
 const LoggerTag = "GRAFANA"

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chronicleprotocol/infestor/smocker"
+	"github.com/kRoqmoq/infestor/smocker"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

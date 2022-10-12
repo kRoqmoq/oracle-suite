@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/geth/mocks"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/geth/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
 )
 
 var teleportTestAddress = common.HexToAddress("0x2d800d93b065ce011af83f316cef9f0d005b0aa4")

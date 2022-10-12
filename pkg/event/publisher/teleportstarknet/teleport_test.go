@@ -27,9 +27,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
-	"github.com/chronicleprotocol/oracle-suite/pkg/starknet"
-	"github.com/chronicleprotocol/oracle-suite/pkg/starknet/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/starknet"
+	"github.com/kRoqmoq/oracle-suite/pkg/starknet/mocks"
 )
 
 const testBlockResponse = `

@@ -20,7 +20,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
 )
 
 type plainItem struct {

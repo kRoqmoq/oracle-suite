@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/feeder"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/nodes"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/feeder"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/nodes"
 )
 
 type ErrPairNotFound struct {

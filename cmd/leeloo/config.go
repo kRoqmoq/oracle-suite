@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/config"
-	ethereumConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/ethereum"
-	leelooConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/eventpublisher"
-	feedsConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/feeds"
-	loggerConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/logger"
-	transportConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/transport"
-	"github.com/chronicleprotocol/oracle-suite/pkg/supervisor"
-	"github.com/chronicleprotocol/oracle-suite/pkg/sysmon"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
+	"github.com/kRoqmoq/oracle-suite/pkg/config"
+	ethereumConfig "github.com/kRoqmoq/oracle-suite/pkg/config/ethereum"
+	leelooConfig "github.com/kRoqmoq/oracle-suite/pkg/config/eventpublisher"
+	feedsConfig "github.com/kRoqmoq/oracle-suite/pkg/config/feeds"
+	loggerConfig "github.com/kRoqmoq/oracle-suite/pkg/config/logger"
+	transportConfig "github.com/kRoqmoq/oracle-suite/pkg/config/transport"
+	"github.com/kRoqmoq/oracle-suite/pkg/supervisor"
+	"github.com/kRoqmoq/oracle-suite/pkg/sysmon"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
 )
 
 type Config struct {

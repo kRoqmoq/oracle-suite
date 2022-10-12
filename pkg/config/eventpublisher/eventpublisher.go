@@ -24,15 +24,15 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	ethereumConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/geth"
-	"github.com/chronicleprotocol/oracle-suite/pkg/event/publisher"
-	"github.com/chronicleprotocol/oracle-suite/pkg/event/publisher/teleportevm"
-	"github.com/chronicleprotocol/oracle-suite/pkg/event/publisher/teleportstarknet"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
-	starknetClient "github.com/chronicleprotocol/oracle-suite/pkg/starknet"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	ethereumConfig "github.com/kRoqmoq/oracle-suite/pkg/config/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/geth"
+	"github.com/kRoqmoq/oracle-suite/pkg/event/publisher"
+	"github.com/kRoqmoq/oracle-suite/pkg/event/publisher/teleportevm"
+	"github.com/kRoqmoq/oracle-suite/pkg/event/publisher/teleportstarknet"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	starknetClient "github.com/kRoqmoq/oracle-suite/pkg/starknet"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport"
 )
 
 //nolint

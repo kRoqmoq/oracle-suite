@@ -22,8 +22,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
 )
 
 // prices contains a list of messages.Price's for a single asset pair.

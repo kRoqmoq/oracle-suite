@@ -18,11 +18,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/config"
-	ethereumConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/ethereum"
-	spectreConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/spectre"
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/config"
+	ethereumConfig "github.com/kRoqmoq/oracle-suite/pkg/config/ethereum"
+	spectreConfig "github.com/kRoqmoq/oracle-suite/pkg/config/spectre"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
 )
 
 type Config struct {

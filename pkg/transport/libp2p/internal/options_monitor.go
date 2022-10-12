@@ -22,7 +22,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/internal/sets"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/internal/sets"
 )
 
 type monitorNotifee struct {

@@ -22,12 +22,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/feeder"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/nodes"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/origins"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/feeder"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/nodes"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/origins"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
 )
 
 var (

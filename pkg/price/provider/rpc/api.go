@@ -16,11 +16,11 @@
 package rpc
 
 import (
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/feeder"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/marshal"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/feeder"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/marshal"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
 )
 
 type Nothing = struct{}

@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ethereumMocks "github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
-	"github.com/chronicleprotocol/oracle-suite/pkg/ghost"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
-	goferMocks "github.com/chronicleprotocol/oracle-suite/pkg/price/provider/mocks"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/local"
+	ethereumMocks "github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/ghost"
+	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
+	goferMocks "github.com/kRoqmoq/oracle-suite/pkg/price/provider/mocks"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/local"
 )
 
 func TestGhost_Configure(t *testing.T) {

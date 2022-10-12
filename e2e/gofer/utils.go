@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/chronicleprotocol/infestor/smocker"
+	"github.com/kRoqmoq/infestor/smocker"
 	"github.com/stretchr/testify/suite"
 )
 

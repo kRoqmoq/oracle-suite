@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport"
 )
 
 var ErrNotSubscribed = errors.New("topic is not subscribed")

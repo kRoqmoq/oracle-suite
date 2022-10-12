@@ -21,11 +21,11 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/nodes"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/origins"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/nodes"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/origins"
 
-	ethereumMocks "github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
+	ethereumMocks "github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

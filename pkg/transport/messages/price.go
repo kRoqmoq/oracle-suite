@@ -23,9 +23,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages/pb"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages/pb"
 )
 
 const PriceV0MessageName = "price/v0"

@@ -21,7 +21,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
 )
 
 type jsonItem struct {

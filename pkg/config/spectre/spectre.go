@@ -18,14 +18,14 @@ package spectre
 import (
 	"time"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/price/store"
-	"github.com/chronicleprotocol/oracle-suite/pkg/util/maputil"
+	"github.com/kRoqmoq/oracle-suite/pkg/price/store"
+	"github.com/kRoqmoq/oracle-suite/pkg/util/maputil"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
-	"github.com/chronicleprotocol/oracle-suite/pkg/log"
-	oracleGeth "github.com/chronicleprotocol/oracle-suite/pkg/price/oracle/geth"
-	"github.com/chronicleprotocol/oracle-suite/pkg/spectre"
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	oracleGeth "github.com/kRoqmoq/oracle-suite/pkg/price/oracle/geth"
+	"github.com/kRoqmoq/oracle-suite/pkg/spectre"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport"
 )
 
 //nolint

@@ -12,14 +12,14 @@ Spire-Bootstrap starts the libp2p bootstrap node for the Spire network.
 ## Installation
 
 To install it, you'll first need Go installed on your machine. Then you can use standard Go
-command: `go get -u github.com/chronicleprotocol/oracle-suite/cmd/spire-bootstrap`.
+command: `go get -u github.com/kRoqmoq/oracle-suite/cmd/spire-bootstrap`.
 
 Alternatively, you can build Spire-Bootstrap using `Makefile` directly from the repository. This approach is recommended
 if you
 wish to work on Spire-Bootstrap source.
 
 ```bash
-git clone https://github.com/chronicleprotocol/oracle-suite.git
+git clone https://github.com/kRoqmoq/oracle-suite.git
 cd oracle-suite
 make
 ```

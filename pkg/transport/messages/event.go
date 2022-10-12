@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages/pb"
+	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages/pb"
 )
 
 const EventV1MessageName = "event/v1"

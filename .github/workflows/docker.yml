@@ -19,7 +19,7 @@ jobs:
         id: metaoraclesuite
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/oracle-suite
+          images: ghcr.io/kRoqmoq/oracle-suite
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}
@@ -29,7 +29,7 @@ jobs:
         id: metagofer
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/gofer
+          images: ghcr.io/kRoqmoq/gofer
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}
@@ -39,7 +39,7 @@ jobs:
         id: metaspire
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/spire
+          images: ghcr.io/kRoqmoq/spire
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}
@@ -49,7 +49,7 @@ jobs:
         id: metaghost
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/ghost
+          images: ghcr.io/kRoqmoq/ghost
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}
@@ -59,7 +59,7 @@ jobs:
         id: metaspectre
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/spectre
+          images: ghcr.io/kRoqmoq/spectre
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}
@@ -69,7 +69,7 @@ jobs:
         id: metaleeloo
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/leeloo
+          images: ghcr.io/kRoqmoq/leeloo
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}
@@ -79,7 +79,7 @@ jobs:
         id: metalair
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/chronicleprotocol/lair
+          images: ghcr.io/kRoqmoq/lair
           tags: |
             type=raw,value=latest
             type=semver,pattern={{version}}

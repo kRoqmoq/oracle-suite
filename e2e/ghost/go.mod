@@ -2,11 +2,11 @@ module ghost
 
 go 1.18
 
-replace github.com/chronicleprotocol/oracle-suite => ../..
+replace github.com/kRoqmoq/oracle-suite => ../..
 
 require (
-	github.com/chronicleprotocol/infestor v0.2.6
-	github.com/chronicleprotocol/oracle-suite v0.0.0-00010101000000-000000000000
+	github.com/kRoqmoq/infestor v0.2.6
+	github.com/kRoqmoq/oracle-suite v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.8.0
 )
 
