@@ -29,7 +29,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 var ErrMemoryLimitExceed = errors.New("memory limit exceeded")

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 
 	"github.com/stretchr/testify/suite"
 )

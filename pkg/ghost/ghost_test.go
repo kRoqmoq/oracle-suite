@@ -29,15 +29,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	ethereumMocks "github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
-	priceMocks "github.com/kRoqmoq/oracle-suite/pkg/price/provider/mocks"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/local"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
-	"github.com/kRoqmoq/oracle-suite/pkg/util/errutil"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	ethereumMocks "github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	priceMocks "github.com/chronicleprotocol/oracle-suite/pkg/price/provider/mocks"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/local"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/errutil"
 )
 
 var (

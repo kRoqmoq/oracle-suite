@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/store/testutil"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/store/testutil"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 func TestPrices_len(t *testing.T) {

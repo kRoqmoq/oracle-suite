@@ -20,10 +20,10 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 
-	pkgEthereum "github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/origins"
+	pkgEthereum "github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/origins"
 )
 
 // averageFromBlocks is a list of blocks distances from the latest blocks from

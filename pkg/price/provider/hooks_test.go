@@ -19,8 +19,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	ethereumMocks "github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	ethereumMocks "github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
 
 	"github.com/stretchr/testify/assert"
 )

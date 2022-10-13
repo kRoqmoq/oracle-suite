@@ -18,7 +18,7 @@ package logrus
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
 )
 
 // New creates a new logger that uses Logrus for logging.

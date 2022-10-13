@@ -23,10 +23,10 @@ import (
 	"runtime"
 	"strings"
 
-	suite "github.com/kRoqmoq/oracle-suite"
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/chain"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/grafana"
+	suite "github.com/chronicleprotocol/oracle-suite"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/chain"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/grafana"
 )
 
 var grafanaLoggerFactory = grafana.New

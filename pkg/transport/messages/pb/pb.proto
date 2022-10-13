@@ -15,7 +15,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/messages/pb";
+option go_package = "github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/messages/pb";
 
 message Price {
   // Price:

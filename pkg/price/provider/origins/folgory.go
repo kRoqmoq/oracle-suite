@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 )
 
 const folgoryBaseURL = "https://folgory.com"

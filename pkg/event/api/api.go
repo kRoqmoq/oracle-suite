@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/event/store"
-	"github.com/kRoqmoq/oracle-suite/pkg/httpserver"
-	"github.com/kRoqmoq/oracle-suite/pkg/httpserver/middleware"
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/event/store"
+	"github.com/chronicleprotocol/oracle-suite/pkg/httpserver"
+	"github.com/chronicleprotocol/oracle-suite/pkg/httpserver/middleware"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 const LoggerTag = "EVENT_API"

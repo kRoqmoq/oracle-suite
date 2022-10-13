@@ -32,9 +32,9 @@ import (
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/internal/sets"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/internal/sets"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
 )
 
 var ErrConnectionClosed = errors.New("connection is closed")

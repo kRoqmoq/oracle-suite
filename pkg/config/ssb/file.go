@@ -23,7 +23,7 @@ import (
 
 	"go.cryptoscope.co/ssb/invite"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/config"
+	"github.com/chronicleprotocol/oracle-suite/pkg/config"
 )
 
 type Caps struct {

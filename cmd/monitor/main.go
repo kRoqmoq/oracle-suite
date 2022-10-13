@@ -18,7 +18,7 @@ package main
 import (
 	"os"
 
-	suite "github.com/kRoqmoq/oracle-suite"
+	suite "github.com/chronicleprotocol/oracle-suite"
 )
 
 func main() {

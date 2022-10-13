@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/marshal/testutil"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/marshal/testutil"
 )
 
 func TestTrace_Graph(t *testing.T) {

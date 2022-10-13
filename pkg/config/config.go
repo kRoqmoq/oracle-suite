@@ -23,7 +23,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/interpolate"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/interpolate"
 )
 
 var getEnv = os.LookupEnv

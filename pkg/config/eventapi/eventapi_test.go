@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/event/api"
-	"github.com/kRoqmoq/oracle-suite/pkg/event/store"
-	"github.com/kRoqmoq/oracle-suite/pkg/event/store/redis"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/local"
+	"github.com/chronicleprotocol/oracle-suite/pkg/event/api"
+	"github.com/chronicleprotocol/oracle-suite/pkg/event/store"
+	"github.com/chronicleprotocol/oracle-suite/pkg/event/store/redis"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/local"
 )
 
 func TestEventAPI_Configure(t *testing.T) {

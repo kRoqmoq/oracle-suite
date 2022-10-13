@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/geth"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/geth"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 func TestSigner_IgnoreUnsupportedType(t *testing.T) {

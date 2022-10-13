@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 )
 
 type KyberSuite struct {

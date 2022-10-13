@@ -16,13 +16,13 @@ Lair is one of the components of Maker Teleport: https://forum.makerdao.com/t/in
 ## Installation
 
 To install it, you'll first need Go installed on your machine. Then you can use standard Go
-command: `go get -u github.com/kRoqmoq/oracle-suite/cmd/lair`.
+command: `go get -u github.com/chronicleprotocol/oracle-suite/cmd/lair`.
 
 Alternatively, you can build Lair using `Makefile` directly from the repository. This approach is recommended if you
 wish to work on Lair source.
 
 ```bash
-git clone https://github.com/kRoqmoq/oracle-suite.git
+git clone https://github.com/chronicleprotocol/oracle-suite.git
 cd oracle-suite
 make
 ```

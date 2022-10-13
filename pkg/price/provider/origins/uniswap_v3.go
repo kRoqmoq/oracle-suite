@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 )
 
 const uniswapV3BaseURL = "https://api.thegraph.com"

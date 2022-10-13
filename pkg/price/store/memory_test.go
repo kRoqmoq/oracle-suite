@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/store/testutil"
-	"github.com/kRoqmoq/oracle-suite/pkg/util/errutil"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/store/testutil"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/errutil"
 )
 
 func TestPriceStore_Add(t *testing.T) {

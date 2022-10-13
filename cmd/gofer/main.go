@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	suite "github.com/kRoqmoq/oracle-suite"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/marshal"
+	suite "github.com/chronicleprotocol/oracle-suite"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/marshal"
 )
 
 // exitCode to be returned by the application.

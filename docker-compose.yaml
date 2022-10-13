@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   gofer:
-    image: ghcr.io/kRoqmoq/oracle-suite:dev
+    image: ghcr.io/chronicleprotocol/oracle-suite:dev
     build:
       context: "."
     entrypoint: [ "/usr/local/bin/gofer" ]

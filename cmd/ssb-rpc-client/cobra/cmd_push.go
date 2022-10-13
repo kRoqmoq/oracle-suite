@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ssb"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ssb"
 )
 
 func Push(opts *Options) *cobra.Command {

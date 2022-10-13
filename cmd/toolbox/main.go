@@ -20,7 +20,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
 )
 
 func main() {

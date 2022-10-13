@@ -24,8 +24,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
 )
 
 var ErrStorageQueryFailed = errors.New("oracle contract storage query failed")

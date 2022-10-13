@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/kRoqmoq/infestor"
-	"github.com/kRoqmoq/infestor/origin"
+	"github.com/chronicleprotocol/infestor"
+	"github.com/chronicleprotocol/infestor/origin"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -27,13 +27,13 @@ import (
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/crypto/ethkey"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/internal"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/crypto/ethkey"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/internal"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 const LoggerTag = "P2P"

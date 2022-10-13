@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
 )
 
 func TestMedian_Age(t *testing.T) {

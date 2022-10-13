@@ -19,9 +19,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/nodes"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/nodes"
 )
 
 func Gofer(ps ...provider.Pair) provider.Provider {

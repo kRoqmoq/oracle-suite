@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/callback"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/callback"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
 )
 
 func TestSysmon(t *testing.T) {

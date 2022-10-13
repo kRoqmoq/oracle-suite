@@ -20,9 +20,9 @@ import (
 	"github.com/libp2p/go-libp2p-core/peerstore"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/internal/sets"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/internal/sets"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
 )
 
 // PeerLogger logs all peers handled by libp2p's pubsub system.

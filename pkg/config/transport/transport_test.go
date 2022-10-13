@@ -21,13 +21,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/local"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/local"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 func TestTransport_P2P_EmptyConfig(t *testing.T) {

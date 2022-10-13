@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
 )
 
 type traceItem struct {

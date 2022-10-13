@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kRoqmoq/infestor"
-	"github.com/kRoqmoq/infestor/origin"
-	"github.com/kRoqmoq/infestor/smocker"
+	"github.com/chronicleprotocol/infestor"
+	"github.com/chronicleprotocol/infestor/origin"
+	"github.com/chronicleprotocol/infestor/smocker"
 	"github.com/stretchr/testify/require"
 )
 

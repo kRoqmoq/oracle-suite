@@ -20,7 +20,7 @@ import (
 	"errors"
 	"net/rpc"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
 )
 
 var ErrNotStarted = errors.New("price provider RPC client is not started")

@@ -20,11 +20,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/feeder"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/nodes"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/feeder"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/nodes"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
 )
 
 const LoggerTag = "ASYNC_GOFER"

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 // MemoryStorage provides storage mechanism for store.EventStore.

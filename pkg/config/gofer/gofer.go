@@ -25,17 +25,17 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider"
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/feeder"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/graph/nodes"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/origins"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/provider/rpc"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/feeder"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/graph/nodes"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/origins"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/provider/rpc"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
 )
 
 const defaultTTL = 60 * time.Second

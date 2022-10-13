@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/config"
-	loggerConfig "github.com/kRoqmoq/oracle-suite/pkg/config/logger"
-	transportConfig "github.com/kRoqmoq/oracle-suite/pkg/config/transport"
-	"github.com/kRoqmoq/oracle-suite/pkg/supervisor"
-	"github.com/kRoqmoq/oracle-suite/pkg/sysmon"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p"
+	"github.com/chronicleprotocol/oracle-suite/pkg/config"
+	loggerConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/logger"
+	transportConfig "github.com/chronicleprotocol/oracle-suite/pkg/config/transport"
+	"github.com/chronicleprotocol/oracle-suite/pkg/supervisor"
+	"github.com/chronicleprotocol/oracle-suite/pkg/sysmon"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p"
 )
 
 type Config struct {

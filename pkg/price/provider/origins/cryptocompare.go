@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/util/query"
+	"github.com/chronicleprotocol/oracle-suite/pkg/util/query"
 )
 
 const cryptoCompareMultiBaseURL = "https://min-api.cryptocompare.com"

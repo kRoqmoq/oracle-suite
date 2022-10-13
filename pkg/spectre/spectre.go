@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
-	"github.com/kRoqmoq/oracle-suite/pkg/log/null"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/oracle"
-	"github.com/kRoqmoq/oracle-suite/pkg/price/store"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log/null"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/oracle"
+	"github.com/chronicleprotocol/oracle-suite/pkg/price/store"
 )
 
 const LoggerTag = "SPECTRE"

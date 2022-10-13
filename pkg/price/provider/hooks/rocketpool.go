@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"

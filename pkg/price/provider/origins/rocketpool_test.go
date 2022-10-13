@@ -22,8 +22,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	ethereumMocks "github.com/kRoqmoq/oracle-suite/pkg/ethereum/mocks"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	ethereumMocks "github.com/chronicleprotocol/oracle-suite/pkg/ethereum/mocks"
 
 	"github.com/stretchr/testify/suite"
 )

@@ -26,12 +26,12 @@ import (
 
 	"github.com/libp2p/go-libp2p-core/crypto"
 
-	suite "github.com/kRoqmoq/oracle-suite"
-	"github.com/kRoqmoq/oracle-suite/pkg/ethereum"
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/libp2p/crypto/ethkey"
+	suite "github.com/chronicleprotocol/oracle-suite"
+	"github.com/chronicleprotocol/oracle-suite/pkg/ethereum"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/libp2p/crypto/ethkey"
 )
 
 const LibP2P = "libp2p"

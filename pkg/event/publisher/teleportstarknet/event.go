@@ -23,8 +23,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/starknet"
-	"github.com/kRoqmoq/oracle-suite/pkg/transport/messages"
+	"github.com/chronicleprotocol/oracle-suite/pkg/starknet"
+	"github.com/chronicleprotocol/oracle-suite/pkg/transport/messages"
 )
 
 // eventToMessage converts Starkware event to a transport message.

@@ -18,7 +18,7 @@ package null
 import (
 	"fmt"
 
-	"github.com/kRoqmoq/oracle-suite/pkg/log"
+	"github.com/chronicleprotocol/oracle-suite/pkg/log"
 )
 
 type logger struct{}
