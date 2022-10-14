@@ -78,7 +78,19 @@
       "YFIUSD",
       "ZECUSD",
       "ZRXUSD",
-      "MATICUSD"
+      "MATICUSD",
+      "USDJPY",
+      "ETHJPY",
+      "WBTCJPY",
+      "LINKJPY",
+      "UNIJPY",
+      "RENBTCJPY",
+      "MATICJPY",
+      "ATOMJPY",
+      "BATJPY",
+      "OMGJPY",
+      "USDCJPY",
+      "DAIJPY"
     ]
   },
   "spectre": {
@@ -209,7 +221,19 @@
       "ZRXUSD",
       "STETHUSD",
       "WSTETHUSD",
-      "MATICUSD"
+      "MATICUSD",
+      "USDJPY",
+      "ETHJPY",
+      "WBTCJPY",
+      "LINKJPY",
+      "UNIJPY",
+      "RENBTCJPY",
+      "MATICJPY",
+      "ATOMJPY",
+      "BATJPY",
+      "OMGJPY",
+      "USDCJPY",
+      "DAIJPY"
     ]
   },
   "gofer": {
@@ -218,6 +242,41 @@
       "address": "${CFG_GOFER_RPC_ADDR-127.0.0.1:9000}"
     },
     "origins": {
+      "fx": {
+        "type": "fx",
+        "name": "fx",
+        "params": {
+          "apiKey": "${CFG_FX_KEY-}"
+        }
+      },
+      "fixer": {
+        "type": "fixerx",
+        "name": "fixerx",
+        "params": {
+          "apiKey": "${CFG_FIXER_KEY-}"
+        }
+      },
+      "currencyapi": {
+        "type": "currencyapi",
+        "name": "currencyapi",
+        "params": {
+          "apiKey": "${CFG_CURRENCYAPI_KEY-}"
+        }
+      },
+      "currencylayer": {
+        "type": "currencylayer",
+        "name": "currencylayer",
+        "params": {
+          "apiKey": "${CFG_CURRENCYLAYER_KEY-}"
+        }
+      },
+      "forex": {
+        "type": "forex",
+        "name": "forex",
+        "params": {
+          "apiKey": "${CFG_FOREX_KEY-}"
+        }
+      },
       "binance_us": {
         "type": "binance",
         "name": "binance_us",
@@ -374,7 +433,7 @@
         "params": {
           "minimumSuccessfulSources": 3,
           "postPriceHook": {
-              "circuitContract": "0xa3105dee5ec73a7003482b1a8968dc88666f3589"
+            "circuitContract": "0xa3105dee5ec73a7003482b1a8968dc88666f3589"
           }
         }
       },
@@ -821,6 +880,143 @@
         ],
         "params": {
           "minimumSuccessfulSources": 3
+        }
+      },
+      "USD/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "ETH/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "bitfinex", "pair": "ETH/JPY" }],
+          [{ "origin": "binance", "pair": "ETH/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "ETH/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "huobi", "pair": "ETH/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "poloniex", "pair": "ETH/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "ETH/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 2
+        }
+      },
+      "WBTC/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "binance", "pair": "WBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "WBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "huobi", "pair": "WBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "poloniex", "pair": "WBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "WBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 2
+        }
+      },
+      "LINK/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "binance", "pair": "LINK/BTC" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "bitstamp", "pair": "LINK/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "LINK/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "ftx", "pair": "LINK/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "gemini", "pair": "LINK/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "LINK/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 3
+        }
+      },
+      "UNI/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "coinbasepro", "pair": "UNI/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "ftx", "pair": "UNI/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "uniswapV3", "pair": "UNI/ETH" },{ "origin": "bitfinex", "pair": "ETH/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "RENBTC/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "hitbtc", "pair": "RENBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "MATIC/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "coinbasepro", "pair": "MATIC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "ftx", "pair": "MATIC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "gemini", "pair": "MATIC/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "MATIC/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "ATOM/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "binance", "pair": "ATOM/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "bitfinex", "pair": "ATOM/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "ATOM/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "ATOM/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "BAT/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "coinbasepro", "pair": "BAT/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "OMG/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "binance", "pair": "OMG/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "bitfinex", "pair": "OMG/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "OMG/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "OMG/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
+        }
+      },
+      "USDC/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "binance", "pair": "BTC/USDC" },{ "origin": ".", "pair": "BTC/USD" }],
+          [{ "origin": "coinbasepro", "pair": "BTC/USDC" },{ "origin": ".", "pair": "BTC/USD" }],
+          [{ "origin": "poloniex", "pair": "BTC/USDC" },{ "origin": ".", "pair": "BTC/USD" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 2
+        }
+      },
+      "DAI/JPY": {
+        "method": "median",
+        "sources": [
+          [{ "origin": "bitfinex", "pair": "DAI/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "DAI/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "kraken", "pair": "DAI/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
+        ],
+        "params": {
+          "minimumSuccessfulSources": 1
         }
       }
     }
