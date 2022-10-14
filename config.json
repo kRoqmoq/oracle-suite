@@ -902,7 +902,7 @@
           [{ "origin": "kraken", "pair": "ETH/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
         ],
         "params": {
-          "minimumSuccessfulSources": 1
+          "minimumSuccessfulSources": 2
         }
       },
       "WBTC/JPY": {
@@ -915,7 +915,7 @@
           [{ "origin": "kraken", "pair": "WBTC/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
         ],
         "params": {
-          "minimumSuccessfulSources": 1
+          "minimumSuccessfulSources": 2
         }
       },
       "LINK/JPY": {
@@ -979,10 +979,10 @@
       "BAT/JPY": {
         "method": "median",
         "sources": [
-          [{ "origin": "coinbasepro", "pair": "BAT/USD" },{ "origin": "fx", "pair": "USD/JPY" }],
+          [{ "origin": "coinbasepro", "pair": "BAT/USD" },{ "origin": "fx", "pair": "USD/JPY" }]
         ],
         "params": {
-          "minimumSuccessfulSources": 3
+          "minimumSuccessfulSources": 1
         }
       },
       "OMG/JPY": {
